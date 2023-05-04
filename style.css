@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+._main__header{
+    color: white;
+    font-family: 'Futura';
+    text-decoration: none;
+}
+
+._logo__staack{
+    background-image: url(./img/main_icon.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+}
+._nav__panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}    
