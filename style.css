@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Metropolis";
+    src: url(./fonts/metropolis/Metropolis-Light.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -5,19 +10,94 @@
     background-color: black;
 }
 
+
+
 ._main__header{
-    color: white;
+    width: 100%;
+    height: 100vh;
     font-family: 'Futura';
-    text-decoration: none;
+    color: #FFFFFF;
 }
 
-._logo__staack{
-    background-image: url(./img/main_icon.svg);
-    background-repeat: no-repeat;
-    width: 100%;
+._title__staack{
+    font-family: 'Futura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #FFFFFF;
 }
+
 ._nav__panel{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}    
+    align-items: center;  
+    width: 80%;
+    height: 90px;
+    margin: auto;  
+}
+
+.main_logo{
+    cursor: pointer;
+}
+
+
+._nav-link-container{
+    display: inline;
+    list-style: none;
+}
+
+._nav-link-container a{
+    text-decoration: none;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #C8C8C8;
+    margin-right: 56px;
+}
+
+.join_light a{
+    margin: 0;
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+
+._make_payments{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+._img_sent__money{
+    background-image: url(./img/iphone_with_300dol.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: left center;
+}
+
+._title__sent__money{
+    display: flex;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+}
+
+._title__main{
+    align-self: center;
+    background-color: #C8C8C8;
+    /* width: 615px; */
+    /* height: 214px; */
+    width: 615px;
+    height: 215px;
+}
