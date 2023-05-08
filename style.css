@@ -96,8 +96,24 @@
 ._title__main{
     align-self: center;
     background-color: #C8C8C8;
-    /* width: 615px; */
-    /* height: 214px; */
     width: 615px;
     height: 215px;
+}
+
+._title__main h2{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+._list__of_title{
+    font-family: 'Metropolis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #E4E4E4;
 }
